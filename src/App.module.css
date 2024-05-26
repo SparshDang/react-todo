@@ -1,0 +1,46 @@
+.heading{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 0;
+  color: rgb(255, 201, 4);
+}
+
+.main__container{
+  width: 60%;
+  margin: 10px auto;
+}
+
+.add__task__container{
+  display: flex;
+  box-shadow: 4px 4px 10px 5px rgba(150, 150, 150, 0.3);
+  border-radius: 12px;
+  border: 2px solid rgb(255, 219, 91);
+}
+
+.add__task__container > input{
+  flex: 1;
+  /* font-size: 1.4rem; */
+  border: none;
+  outline: none;
+  margin: 10px;
+}
+
+.add__task__container > button {
+  aspect-ratio: 1/1;
+  border: none;
+  background-color: transparent;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: red;
+
+}
+
+.tasks_container{
+  margin: 10px auto;
+  height: 400px;
+  overflow-y: scroll;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px 5px rgba(150, 150, 150, 0.3);
+  border: 2px solid rgb(255, 219, 91);
+}
